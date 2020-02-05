@@ -64,7 +64,9 @@ let DoTheOtherThing = function () {
             }else
                 paperless = parseInt(prompt("Too low. again."),10);
 
-        }while(paperless !== randomise);
+        }while(paperless == randomise);
+
+        alert("YOU DID IT");
 
         restart = prompt("YES OR NO")
 
